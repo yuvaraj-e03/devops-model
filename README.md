@@ -20,20 +20,11 @@ Whenever there is a push to the `main` branch, the workflow triggers a build job
 
 ### Installation
 
-1. Clone the repository
-
    ```bash
    git clone https://github.com/Gayan-98/To-Do.git
-
-
-1. Clone the repository
-
-   ```bash
-   git clone https://github.com/Gayan-98/To-Do.git   
-   
-2.Navigate to the project directory  
-  ```bash
-  cd todo
+   cd todo
+   npm install
+   npm start
 
 
 
