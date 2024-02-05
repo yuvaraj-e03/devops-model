@@ -26,10 +26,10 @@ Whenever there is a push to the `main` branch, the workflow triggers a build job
    git clone https://github.com/Gayan-98/To-Do.git
    
 2.Navigate to the project directory  
- ```bash
+  ```bash
   cd todo
 
-3.Install dependencies:
-   ```bash
-   npm start
+
+
+
 
