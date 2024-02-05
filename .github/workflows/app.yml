@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: p
-          path: ./todo/dist
+          path: ./todo/build
 
   # Deploy Job
   deploy:
