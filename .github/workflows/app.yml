@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:
-  # Build Job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -34,7 +33,6 @@ jobs:
           name: poduction file
           path: ./todo/build
 
-  # Deploy Job
   deploy:
    
     needs: build
@@ -50,5 +48,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.KEY }} #this is the key of the access token
+          github_token: ${{ secrets.KEY }}
           publish_dir: ./todo/build
